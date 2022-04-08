@@ -1,0 +1,31 @@
+body{
+    font-family: 'Segoe UI';
+    background-image: url(./images/bus1.jpg); 
+    
+    /* background-color: yellow; */
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    /* background:aqua; */
+}
+
+.output{
+    background-color:white;
+    position: relative;
+    width: 400px;
+    padding: 60px 35px;
+    border-radius: 15px;
+}
+
+tr td:first-child{
+    padding-right: 30px;
+
+}
+
+tr td{
+    padding-top: 30px;
+}

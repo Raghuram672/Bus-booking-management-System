@@ -1,0 +1,62 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Segoe UI';
+    background-image: url(./images/bus1.jpg); 
+    background-size: cover;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+    text-align: center;
+}
+
+.loginform{
+    background-color:white;
+    position: relative;
+    width: 400px;
+    padding: 60px 35px;
+    border-radius: 15px;
+}
+
+.heading{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.input{
+    margin:20px 0px;
+    position: relative;
+    height: 60px;
+    width: 100%;
+}
+
+.input input{
+    height: 40%;
+    width: 100%;
+    border: 1px solid silver;
+    outline: none;
+    font-size: 15px;
+}
+
+.input label{
+    position:relative;
+}
+button{
+    cursor: pointer;
+    padding: 7px 40px;
+    font-size: 13px;
+    border-radius: 10px;
+    text-align:center;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
